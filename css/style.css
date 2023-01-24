@@ -149,8 +149,6 @@
 }
 
 .container_green2 {
-    background-color: darkseagreen;
-  
     width: calc(60% / 4)
 }
 
@@ -159,7 +157,15 @@
     flex-direction: column;
 }
 
-.blue2 {
+.column {
+    color: white;
+    font-size: 10px;
+}
+.column a {
+    padding: 5px;
+}
+
+.blue2{
     color: cornflowerblue;
 }
 
