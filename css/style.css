@@ -96,12 +96,28 @@
 }
 
 .container_green {
-    height: 700px;
-    width: 1100px;
+    width: 1000px;
     margin: auto;
     text-align: center;
 }
 
+.container_green h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.container_green h2 {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.blue {
+    background-color: cornflowerblue;
+    color: white;
+    margin: 0px 400px 10px;
+}
 
 .black {
     background-color: rgb(38, 38, 38); 
@@ -113,6 +129,11 @@
     border-style: dotted;
     height: 500px;
     width: 30%;
+    padding: 0px 70px;
+}
+
+.container_pink img {
+    
 }
 
 .container_green2 {
@@ -129,15 +150,16 @@
 }
 
 .flex_container4 {
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
-    height: 30px;
-    width: auto;
+}
+
+#lastbutton {
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 25px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
     
 }
 
-.footer_item {
-    background-color: crimson;
-    padding: 2px;
-}
