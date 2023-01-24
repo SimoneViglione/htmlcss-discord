@@ -6,7 +6,7 @@
 }
 
 .container {
-    background-image: url(img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-size: cover;
     height: 420px;
     padding: 10px 0px;
@@ -35,10 +35,8 @@
 }
 
 .container_blue {
-    
     height: 350px;
     padding: 20px 300px;
-
 }
 
 .container_pink {
@@ -62,6 +60,13 @@
     background-color: black;
 }
 
+/*fine header*/
+
+.text1 h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
 .grey {
     background-color: grey;
     padding: 20px 0px
@@ -73,15 +78,20 @@
 }
 
 .image1 {
-    background-color: cornflowerblue;
+    
     width: 700px;
     height: 500px;  
 }
 
 .text1 {
-    background-color: blanchedalmond;
+    padding-top: 30px;
     height: 500px;
-    width: 400px;
+    width: 300px;
+}
+
+.text1 h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
 }
 
 .flex_container3 {
