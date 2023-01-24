@@ -125,27 +125,48 @@
 }
 
 .container_pink2 {
-    background-color: crimson;
-    border-style: dotted;
-    height: 500px;
+   
     width: 30%;
     padding: 0px 70px;
 }
 
-.container_pink img {
-    
+.container_pink2 h2 {
+    color: cornflowerblue;
+    margin-bottom: 10px;
+}
+
+.container_pink2 img {
+    height: 10px;
+}
+.container_pink2 span {
+    font-size: 10px;
+    color: white;
+}
+
+.fontawesome {
+    margin-top: 10px;
+    color: white;
 }
 
 .container_green2 {
     background-color: darkseagreen;
-    border-style: dotted;
-    height: 500px;
+  
     width: calc(60% / 4)
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue2 {
+    color: cornflowerblue;
+}
+
+
 .container_black {
     background-color:rgb(38, 38, 38);
-    margin: 1px 1px;
+    margin: 1px 0px;
     padding: 5px 200px 0px;
 }
 
